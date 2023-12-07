@@ -1,7 +1,7 @@
-export default function novaaula(){
+export default function NovaAula(){
     
     return(
-        <h1>cadastro de curso</h1>    
+        <h1>Cadastro de curso</h1>    
     )
 
 
