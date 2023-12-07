@@ -1,5 +1,5 @@
-export default function ListAula(){
+export default function listar(){
     return(
-        <h1>listar aulas</h1>
+        <h1>apois</h1>
     )
 }
