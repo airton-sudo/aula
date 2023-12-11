@@ -7,7 +7,7 @@ export default function NewAula() {
         "use server"
         const name = formData.get("name") as string;
         const materia = formData.get("materia") as string;
-        await sql`INSERT INTO aula (name, materia) VALUES(${title}, ${description})`
+        await sql`INSERT INTO aula (name, materia) VALUES(${name}, ${materia})`
         console.log("Acessou a função")
     }
     return (
