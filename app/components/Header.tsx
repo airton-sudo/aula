@@ -12,7 +12,7 @@ export default function Header() {
                 <a className="hover:text-[#00e77f]" href="#contato">
                     Contato &nbsp;{" "}
                 </a>
-                <a className="hover:text-[#00e77f]" href="#">
+                <a className="hover:text-[#00e77f]" href="/admin">
                     Login &nbsp;
                 </a>
             </nav>
