@@ -1,13 +1,18 @@
-import Image from 'next/image'
+import Banner  from "./components/Banner";
+import Aula from "./components/Aula";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
+export const revalidate=0
 export default function Home() {
   return (
-    <div>
-      <h1>ola feito DB com cadastro funcional</h1>
-      <a href="/aula/new/">cadastro </a><br />
-      <a href="/aula">listar</a>
-    </div>
+    <>
+      <Header />
+      <Banner />
+      <Footer />
+      <Aula   />
+
+    </>
 
   )
 }
-
